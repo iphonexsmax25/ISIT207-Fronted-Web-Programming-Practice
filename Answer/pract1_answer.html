@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My First HTML5 Page</title>
+</head>
+<body>
+
+  <!-- Header and Navigation -->
+  <header>
+    <h1>Welcome to My HTML5 Practice Page</h1>
+    <nav>
+      <a href="#">Home</a> | 
+      <a href="#">About</a> | 
+      <a href="#">Contact</a>
+    </nav>
+    <hr>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <section>
+      <h2>About HTML</h2>
+      <p><strong>HTML</strong> stands for <em>HyperText Markup Language</em>. 
+      It is the standard language for creating web pages.</p>
+    </section>
+
+    <section>
+      <h2>My Favorite Foods</h2>
+      <ul>
+        <li>Pizza</li>
+        <li>Burgers</li>
+        <li>Ice Cream</li>
+      </ul>
+
+      <h3>Steps to Make Tea</h3>
+      <ol>
+        <li>Boil water</li>
+        <li>Add tea leaves</li>
+        <li>Pour into cup</li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>Media Example</h2>
+      <img src="https://hips.hearstapps.com/hmg-prod/images/c33b2259-8c6b-4308-bc6f-5373d8a6600d.jpeg?crop=0.668xw:1.00xh;0.194xw,0&resize=640:*" alt="Sample Image" width="300px">
+      <br>
+      <video controls width="300">
+        <source src="sample.mp4" type="video/mp4">
+      </video>
+      <br>
+      <audio controls>
+        <source src="sample.mp3" type="audio/mpeg">
+      </audio>
+    </section>
+
+    <section>
+      <h2>Sample Table</h2>
+      <table border="1">
+        <tr>
+          <th>Name</th>
+          <th>Age</th>
+        </tr>
+        <tr>
+          <td>Alice</td>
+          <td>20</td>
+        </tr>
+        <tr>
+          <td>Bob</td>
+          <td>22</td>
+        </tr>
+      </table>
+    </section>
+
+    <section>
+      <h2>Contact Form</h2>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender">
+          <option>Male</option>
+          <option>Female</option>
+          <option>Other</option>
+        </select><br><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" rows="4" cols="30"></textarea><br><br>
+
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+  </main>
+
+  <!-- Aside Section -->
+  <aside>
+    <p>Did you know? HTML5 introduced semantic tags like 
+    <span>&lt;section&gt;</span> and <span>&lt;article&gt;</span>.</p>
+  </aside>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 My Practice Page | <a href="#">Privacy Policy</a></p>
+  </footer>
+
+</body>
+</html>
